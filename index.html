@@ -6,6 +6,32 @@
         <meta name="description" content=" Nicole's East Street South" />
         <meta name="author" content="" />
         <title>Nicole's East Street South | All Your Beauty Supplies Needs</title>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-864393891"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-864393891');
+</script>
+<!-- Event snippet for Contact conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-864393891/ksTtCNWf0P8bEKO1lpwD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
