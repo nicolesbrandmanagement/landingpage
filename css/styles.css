@@ -10865,8 +10865,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
-  background-size: contain;
-  background-image: url('http://nicolesbrandmanagement.github.io/landingpage/assets/img/logo.jpg');
+  background-size: cover;
   background-color: #c12025;
 }
 header.masthead .masthead-content {
